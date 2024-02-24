@@ -139,6 +139,7 @@
 }
 
 .hero {
+  margin-top: 15px;
   /* height: 100vh; */
   text-align: center;
   padding: 100px 0;

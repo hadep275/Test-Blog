@@ -59,8 +59,8 @@ const sliderContainer = document.querySelector("[data-slider-container]");
 const sliderPrevBtn = document.querySelector("[data-slider-prev]");
 const sliderNextBtn = document.querySelector("[data-slider-next]");
 
-// let totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
-// let totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
+let totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
+let totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
 
 let currentSlidePos = 0;
 
@@ -106,7 +106,7 @@ const slidePrev = function () {
  * RESPONSIVE
  */
 window.addEventListener("resize", function () {
-  totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
+  // totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
   totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
 
   moveSliderItem();

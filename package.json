@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "firebase": "^10.8.0"
-  }
+  },
+  "name": "test-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadep275/Test-Blog.git"
+  },
+  "author": "hadep275",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadep275/Test-Blog/issues"
+  },
+  "homepage": "https://github.com/hadep275/Test-Blog#readme",
+  "description": ""
 }
